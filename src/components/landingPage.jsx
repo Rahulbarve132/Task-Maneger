@@ -7,7 +7,7 @@ const LandingPage = () => {
 
 
   const handleButtonClick = () => {
-    navigate('/login');
+    navigate('/todo');
   };
 
 
@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div className='mainDiv flex flex-col'>
 
 
-      <div className='header flex justify-between'>
+      <div className=' flex justify-between'>
         <div className='logo'>
           <img className= "w-16 h-16 mx-4 mt-2" src="https://www.youpro.store/static/media/todo-logo.a5354be7.png" alt="" />
       </div>  

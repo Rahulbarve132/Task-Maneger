@@ -5,7 +5,6 @@ const LogIn = () => {
 
     const email = useRef(null);
     const password = useRef(null);
-    // console.log(email.current.value)
 
   return (
     <div className='full-div flex'>
